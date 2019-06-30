@@ -6,7 +6,7 @@ spring:
     password: admin
   mail:
     host: smtp.sina.com
-    username: lingchen_cl@sina.com
+    username: **@sina.com
     password: C123456L
     enable:  true
     smtp:
