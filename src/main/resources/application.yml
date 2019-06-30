@@ -1,0 +1,20 @@
+spring:
+  activemq:
+  #activemq地址
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+  mail:
+    host: smtp.sina.com
+    username: lingchen_cl@sina.com
+    password: C123456L
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
+#自定义队列
+myQueueSB: email-queue
+server:
+  port: 8090
